@@ -3,6 +3,9 @@
 Website resmi **LKP Dessy** yang digunakan sebagai media informasi, pendaftaran, dan pengelolaan data lembaga kursus secara online.
 
 ---
+### Halaman Utama
+![Halaman Utama](images/screenshoot.png)
+
 
 ## 📌 Deskripsi
 Website LKP Dessy dikembangkan untuk memudahkan:
