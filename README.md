@@ -1,4 +1,4 @@
-# 🌸 Website LKP Dessy
+#  Website LKP Dessy
 
 Website resmi **LKP Dessy** yang digunakan sebagai media informasi, pendaftaran, dan pengelolaan data lembaga kursus secara online.
 
@@ -39,10 +39,10 @@ Website ini dirancang dengan fokus pada **kemudahan penggunaan (usability)** dan
 
 ## 👨‍💻 Tim Pengembang
 
-| Nama     			       | Peran                 |
+| Nama     			                       | Peran                 |
 |--------------------------------------|-----------------------|
 | **Ardi Kurniawan (144231018)**       | Koordinator Proyek    |
-| **Siti Rahayu (144231017)**	       | UI/UX Designer        |
+| **Siti Rahayu (144231017)**	         | UI/UX Designer        |
 | **Wahyu Sampurno Adi (141231001)**   | UI/UX Designer        |
 | **Muhamad Ibnu Wahab (144231004)**   | Frontend              |
 | **Bagas Wisnu Putra (144231035)**    | Frontend              |
