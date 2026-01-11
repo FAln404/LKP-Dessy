@@ -1,0 +1,84 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #2c7be5, #4f9deb);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background: #fff;
+  padding: 40px 35px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 380px;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+h2 {
+  text-align: center;
+  color: #2c7be5;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  background: #f8f9fa;
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: #2c7be5;
+  background: #fff;
+  outline: none;
+}
+
+button {
+  background: #2c7be5;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1a5ec3;
+}
+
+#status {
+  text-align: center;
+  margin-top: 10px;
+  color: #333;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

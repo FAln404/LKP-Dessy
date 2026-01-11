@@ -1,0 +1,174 @@
+/* ==== FORM PENDAFTARAN LKP ==== */
+
+/* body {
+  font-family: "Poppins", sans-serif;
+  /* background: linear-gradient(135deg, #2c7be5, #4f9deb); 
+  background: #4f9deb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+} 
+*/
+body {
+  font-family: "Poppins", sans-serif;
+  background: #4f9deb;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* supaya form mulai dari atas, tidak terpotong */
+  min-height: 100vh; /* bisa lebih tinggi dari layar */
+  margin: 0;
+  padding: 20px;
+  padding-top: 40px; /* kasih ruang aman */
+}
+
+.container {
+  background: #fff;
+  width: 100%;
+  max-width: 450px;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  animation: fadeIn 0.6s ease-out;
+}
+
+.container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  color: #2c7be5;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+/* ===== Kuota Section ===== */
+.kuota-info {
+  background: #f1f5ff;
+  border: 1px solid #d9e5ff;
+  color: #2c7be5;
+  padding: 12px 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 6px rgba(44, 123, 229, 0.08);
+}
+
+.kuota-info strong {
+  color: #1b5fc2;
+}
+
+.kuota-info span {
+  font-weight: 700;
+}
+
+/* ===== Form ===== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+  font-weight: 600;
+  color: #333;
+  margin-top: 8px;
+}
+
+input,
+select,
+textarea {
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  color: #333;
+  background: #f8f9fa;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #2c7be5;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(44, 123, 229, 0.3);
+}
+
+textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+button {
+  margin-top: 20px;
+  background: #2c7be5;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #1b5fc2;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(27, 95, 194, 0.3);
+}
+
+#status {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #444;
+  font-size: 0.95em;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 500px) {
+  .container {
+    padding: 30px 20px;
+  }
+
+  h2 {
+    font-size: 1.6em;
+  }
+
+  .kuota-info {
+    font-size: 0.9em;
+    padding: 10px;
+  }
+
+  input,
+  select,
+  textarea {
+    font-size: 13px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
+
+/* Animasi ringan */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
